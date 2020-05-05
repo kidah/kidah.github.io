@@ -9,19 +9,19 @@
 
 /* main menu styles */
 .navbar-default .navbar-nav li a:hover {
-  border-color: #c2a476;
+  border-color: brown;
 }
 
 .navbar-default .navbar-nav li a:hover:before, .navbar-default .navbar-nav li a:hover:after {
-  background: #c2a476;
+  background: brown;
 }
 
 .navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.open a {
-  border-color: #c2a476;
+  border-color: brown;
 }
 
 .navbar-default .navbar-nav li.active a:before, .navbar-default .navbar-nav li.active a:after, .navbar-default .navbar-nav li.open a:before, .navbar-default .navbar-nav li.open a:after {
-  background: #c2a476;
+  background: brown;
 }
 
 /* navigation-bar styles */
@@ -40,11 +40,11 @@
 }
 
 .news .carousel-indicators li {
-  border-color: #c2a476;
+  border-color: brown;
 }
 
 .news .carousel-indicators li.active, .news .carousel-indicators li:hover {
-  background: #c2a476;
+  background: brown;
 }
 
 .btn-default {
@@ -61,7 +61,9 @@
 }
 
 .team-carousel .info-box {
-  background: rgba(194, 164, 118, 0.9);
+  background: #501111;
+  opacity: 0.9;
+  /* background: rgba(194, 164, 118, 0.9); */
 }
 
 .team-carousel .box:hover .image-frame {
@@ -69,11 +71,11 @@
 }
 
 .team-carousel .carousel-indicators li {
-  border-color: #c2a476;
+  border-color: brown;
 }
 
 .team-carousel .carousel-indicators li.active, .team-carousel .carousel-indicators li:hover {
-  background: #c2a476;
+  background: brown;
 }
 
 /* reservation bar styles */
@@ -152,7 +154,7 @@
 
 /* contact styles */
 .contact-form .btn {
-  background: #c2a476;
+  background: #d6b783;
 }
 
 .contact-form .btn:hover {
@@ -185,11 +187,11 @@
 }
 
 .testimonials .carousel-indicators li {
-  border-color: #c2a476;
+  border-color: brown;
 }
 
 .testimonials .carousel-indicators li.active, .testimonials .carousel-indicators li:hover {
-  background: #c2a476;
+  background: brown;
 }
 
 /* menu section styles */
@@ -212,7 +214,7 @@
 }
 
 .menu-carousel .carousel-indicators li.active, .menu-carousel .carousel-indicators li:hover {
-  background: #c2a476;
+  background: brown;
 }
 
 /* billing form styles */
@@ -268,7 +270,7 @@ form [type="checkbox"]:checked + .fake-input {
 
 /* footer styles */
 #footer {
-  background: #c2a476;
+  background: #e0c59b;
 }
 
 .f-nav a:hover {

@@ -66,3 +66,9 @@ $(window).load(function() {
         }
     });
 });
+
+window.onload = function() {
+   Particles.init({
+    selector: '.description'
+   });
+};
