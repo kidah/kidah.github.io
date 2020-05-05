@@ -671,7 +671,7 @@ img.aligncenter {
 
 .carousel-img {
     width: 1920px !important;
-    height: 880px !important;
+    height: 880px;
     /* filter: brightness(0.5); */
 }
 
@@ -1479,7 +1479,7 @@ h1:after {
     display: none;
 }
 .our-room .btn-default:hover {
-    color: #fff;
+    color: #611818 !important;
 }
 .our-room .services-list {
     font: 400 12px/14px "Lora", Arial, helvetica, sans-serif;
@@ -1812,12 +1812,14 @@ h1:after {
 
 .banner {
     overflow: hidden;
+    max-height: 300px;
 }
 .banner img {
     display: block;
     width: 100%;
     height: auto;
     filter: brightness(0.5);
+   
 }
 /* navigation-bar styles  #353535 */
 
@@ -1886,6 +1888,8 @@ h1:after {
 .about-us {
     font-size: 0;
     line-height: 0;
+    color: #000000ed;
+    font-weight: 600;
 }
 .about-us [class^="col-"] {
     float: none;
@@ -4841,9 +4845,47 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 #homepage {
-    background-image: url("../images/5.jpg");
+    background-image: url("../images/collagem6.jpg");
     /* width: 1920px !important; */
-    height: 880px !important;
+    height: 90vh !important;
     display: block;
     position: relative;
 }
+
+.homeDiv {
+    text-align: center;
+	position: absolute;
+	margin: 0;
+	top: 40%;
+	left: 50%;
+	margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerImage {
+    height: 200px;
+    width: 100%; 
+    border: 10px double #c2a476;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+}
+.welcomeP {
+    font-size: 30px; 
+    color: cornsilk; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.welcomeBtn {
+    margin-top: 30px; 
+    background-color: #c2a476; 
+    color: black;
+}
+.welcomeText {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: white;
+    font-family: Lora, Arial, helvetica, sans-serif;
+    font-style: italic;
+  }
+  
