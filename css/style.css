@@ -4887,3 +4887,14 @@ only screen and (min-device-pixel-ratio: 1.5) {
     font-style: italic;
   }
   
+.homepageCarousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.btnAbout {
+    background-color: antiquewhite;
+    color: #611818;
+}

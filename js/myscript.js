@@ -14,23 +14,6 @@ $('.map-responsive').on('click',function() {
 $(".map-responsive").on('mouseleave',function() {
     $('.map-responsive iframe').css("pointer-events", "none");
 });
-var textWrapper = document.querySelector('.welcomeText');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime.timeline({loop: true})
-  .add({
-    targets: '.welcomeText .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: (el, i) => 150 * (i+1)
-  }).add({
-    targets: '.welcomeText',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
 
 // Standard google maps function
 function initialize() {
@@ -83,8 +66,24 @@ $(window).load(function() {
     });
 });
 
-window.onload = function() {
-   Particles.init({
-    selector: '.description'
-   });
-};
+var textWrapper = document.querySelector('.welcomeText');
+if(textWrapper) {
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    anime.timeline({loop: true})
+  .add({
+    targets: '.welcomeText .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i+1)
+  }).add({
+    targets: '.welcomeText',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+}
+
+
+
